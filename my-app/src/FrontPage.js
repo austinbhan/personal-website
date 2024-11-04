@@ -15,9 +15,8 @@ export default function FrontPage() {
                 <div className="menu-left">
                     <p>Musician</p>
                     <ul>
-                        <li>About Me</li>
-                        <Link to="/musicabout">Go to About Me</Link>
-                        <li>Events</li>
+                        <li><Link to="/musicabout">About Me</Link></li>
+                        <li><Link to="/events">Events</Link></li>
                         <li>Lessons</li>
                         <li>Performances</li>
                         <li>Contact</li>
