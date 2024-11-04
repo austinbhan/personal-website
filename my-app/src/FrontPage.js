@@ -4,6 +4,10 @@ import placeholderPortrait from './Assets/placeholderPortrait.jpg'
 export default function FrontPage() {
     return (
         <>
+    <header className="header">
+    <p>This is the header. Name goes here</p>
+    </header>
+    <body className="body">
             <h3>This is the body. Menus and the cover image go here</h3><div className="menu-and-image">
                 <div className="menu-left">
                     <p>Musician</p>
@@ -25,6 +29,8 @@ export default function FrontPage() {
                     </ul>
                 </div>
             </div>
+            </body>
+    <footer className="footer">This is the footer. Copyright information down here</footer>
         </>
         )
 }
