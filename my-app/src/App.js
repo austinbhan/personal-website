@@ -9,7 +9,6 @@ function App() {
       </header>
       <body className="body">
         <h3>This is the body. Menus and the cover image go here</h3>
-        <div className="menus">
         <div className="menu-and-image">
           <div className="menu-left">
             <p>Musician</p>
@@ -22,19 +21,15 @@ function App() {
             </ul>
           </div>
           <img src={placeholderPortrait} alt="placeHolder" className="portrait"/>
-        </div>
-        <div className="menu-right">
-          <div className="menu-and-image">
-          <p>Photography</p>
-          <ul>
-            <li>Portfolio</li>
-            <li>Commissions</li>
-            <li>Contact</li>          
-          </ul>
-          <img src={placeholderPortrait} alt="placeholder" className="portrait"/>
-        </div>
-        </div>
+          <div className="menu-right">
+            <p>Photography</p>
+            <ul>
+              <li>Portfolio</li>
+              <li>Commissions</li>
+              <li>Contact</li>
+            </ul>
           </div>
+        </div>
       </body>
       <footer className="footer">This is the footer. Copyright information down here</footer>
     </div>
