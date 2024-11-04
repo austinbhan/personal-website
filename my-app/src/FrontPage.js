@@ -1,9 +1,12 @@
 import React from 'react';
 import placeholderPortrait from './Assets/placeholderPortrait.jpg'
+import { Link } from 'react-router-dom';
 
 export default function FrontPage() {
     return (
         <>
+    <div className="App">
+
     <header className="header">
     <p>This is the header. Name goes here</p>
     </header>
@@ -13,6 +16,7 @@ export default function FrontPage() {
                     <p>Musician</p>
                     <ul>
                         <li>About Me</li>
+                        <Link to="/musicabout">Go to About Me</Link>
                         <li>Events</li>
                         <li>Lessons</li>
                         <li>Performances</li>
@@ -31,6 +35,7 @@ export default function FrontPage() {
             </div>
             </body>
     <footer className="footer">This is the footer. Copyright information down here</footer>
+    </div>
         </>
         )
 }
