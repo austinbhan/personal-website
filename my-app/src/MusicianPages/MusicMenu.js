@@ -9,9 +9,9 @@ export default function MusicMenu() {
                     <ul>
                         <li><Link to="/musicabout">About Me</Link></li>
                         <li><Link to="/events">Events</Link></li>
-                        <li>Lessons</li>
-                        <li>Performances</li>
-                        <li>Contact</li>
+                        <li><Link to="/lessons">Lessons</Link></li>
+                        <li><Link to="/performances">Performances</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
         </>
