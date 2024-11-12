@@ -4,6 +4,8 @@
 
 .body {
   background-color: lightblue;
+  display: flex;
+  justify-content: start;
 }
 
 .footer {
@@ -14,24 +16,14 @@
   background-color: lightcoral;
 }
 
-.menus {
-  display: flex;
-  justify-content: space-between;
-}
-
 .menu-and-image {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 .menu-left {
   background-color: lightseagreen;
   text-align: left;
-}
-
-.menu-right {
-  background-color: lightseagreen;
-  text-align: right;
 }
 
 .portrait {
