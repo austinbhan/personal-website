@@ -5,14 +5,12 @@ export default function MusicMenu() {
     return (
         <>
         <div className="menu-left">
-                    <p>Musician</p>
-                    <ul>
-                        <li><Link to="/musicabout">About Me</Link></li>
-                        <li><Link to="/events">Events</Link></li>
-                        <li><Link to="/lessons">Lessons</Link></li>
-                        <li><Link to="/performances">Performances</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                    </ul>
+                    <h1>Musician</h1>
+                        <h2><Link to="/musicabout">About Me</Link></h2>
+                        <h2><Link to="/events">Events</Link></h2>
+                        <h2><Link to="/lessons">Lessons</Link></h2>
+                        <h2><Link to="/performances">Performances</Link></h2>
+                        <h2><Link to="/contact">Contact</Link></h2>
                 </div>
         </>
     )
