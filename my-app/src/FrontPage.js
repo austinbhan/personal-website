@@ -1,11 +1,14 @@
-import React from 'react';
+import placeholderPortrait from './Assets/placeholderPortrait.jpg';
 
 export default function FrontPage() {
     return (
         <>
             <div className="App">
             <body className="body">
-                <h3>This is the home page contents</h3>
+                <div className="front-page">
+                    <h3>This is the home page contents</h3>
+                    <img src={placeholderPortrait} alt="placeholder"></img>
+                </div>
             </body>
             </div>
         </>
