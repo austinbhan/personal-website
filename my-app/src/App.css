@@ -2,10 +2,8 @@
   text-align: center;
 }
 
-.body {
-  background-color: lightblue;
-  display: flex;
-  justify-content: start;
+.body {;
+  background-color: #B9D7EA;
 }
 
 .footer {
@@ -22,10 +20,28 @@
 }
 
 .menu-left {
-  background-color: lightseagreen;
-  text-align: left;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  background-color: #769FCD;
+  font-family: 'roboto';
 }
 
 .portrait {
   max-width: 450px;
+}
+
+.menu-selection{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 10px;
+}
+
+.menu-selection:hover {
+  color: white;
+}
+
+.name {
+  font-size: 35px;
 }

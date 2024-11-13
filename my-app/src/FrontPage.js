@@ -7,7 +7,7 @@ export default function FrontPage() {
             <body className="body">
                 <div className="front-page">
                     <h3>This is the home page contents</h3>
-                    <img src={placeholderPortrait} alt="placeholder"></img>
+                <img src={placeholderPortrait} alt="placeholder"></img>
                 </div>
             </body>
             </div>
