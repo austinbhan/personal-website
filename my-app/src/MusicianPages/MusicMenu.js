@@ -7,7 +7,7 @@ export default function MusicMenu() {
         <>
         <div className="menu-left">
             <h1 className="name">Austin Han</h1>
-            <h2><Link to="/" className="menu-selection">About Me</Link></h2>
+            <h2><Link to="/" className="menu-selection">About</Link></h2>
             <h2><Link to="/events" className="menu-selection">Events</Link></h2>
             <h2><Link to="/lessons" className="menu-selection">Lessons</Link></h2>
             <h2><Link to="/performances" className="menu-selection">Performances</Link></h2>
