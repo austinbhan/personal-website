@@ -10,46 +10,48 @@
   background-color: salmon;
 }
 
+.front-page {
+  display: flex;
+}
+
 .header {
   background-color: lightcoral;
 }
 
-.menu-and-image {
+.menu-and-name {
   display: flex;
-  justify-content: start;
+  background-color: grey;
+  font-family: 'roboto', sans-serif;
 }
 
 .menu-left {
   display: flex;
-  align-items: center;
-  justify-content: left;
-  background-color: #769FCD;
-  font-family: 'roboto';
+  justify-content: flex-start;
   width: 100%;
-  flex-shrink: 1;
 }
 
+.name {
+  font-size: 30px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .portrait {
   max-width: 450px;
 }
 
 .menu-selection{
   color: black;
-  /* background-color: pink; */
+  display: block;
   text-decoration: none;
   font-size: 17px;
-  padding: 20px;
+  padding: 10px;
   max-width: 100%;
+
+  text-align: center;
 }
 
 .menu-selection:hover {
   color: white;
-}
-
-.name {
-  /* background-color: red; */
-  font-size: 30px;
-  min-width: 200px;
-  display: flex;
-  justify-content: center;
 }
