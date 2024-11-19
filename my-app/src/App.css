@@ -18,40 +18,17 @@
   background-color: lightcoral;
 }
 
-.menu-and-name {
-  display: flex;
-  background-color: grey;
-  font-family: 'roboto', sans-serif;
-}
-
-.menu-left {
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-}
-
 .name {
   font-size: 30px;
   min-width: 200px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:
+  center;
 }
+
+
 .portrait {
   max-width: 450px;
-}
+  }
 
-.menu-selection{
-  color: black;
-  display: block;
-  text-decoration: none;
-  font-size: 17px;
-  padding: 10px;
-  max-width: 100%;
-
-  text-align: center;
-}
-
-.menu-selection:hover {
-  color: white;
-}
